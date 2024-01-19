@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "element-plus": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/intl-tel-input": "^18.1.4"
+  }
+}

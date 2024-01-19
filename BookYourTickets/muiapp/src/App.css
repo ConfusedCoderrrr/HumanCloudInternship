@@ -1,0 +1,181 @@
+@media (max-width: 1265px) {
+
+  .input-group.me-2,
+  .input-group,
+  .col-5,
+  .d-flex {
+    display: none;
+  }
+
+  .searchDiv {
+    display: none !important;
+  }
+
+  .create_btn {
+    display: none !important;
+  }
+
+  #root>div>nav>div>div.col-5.d-flex {
+    display: none;
+  }
+
+  #root>div>nav>div>div.col-3.py-3.text-start {
+    display: flex;
+    flex-direction: column;
+    /* Ensure it takes full width */
+  }
+
+  /* To make an element occupy a whole row */
+  .occupy-row {
+    width: 100%;
+  }
+  
+  .mainHeading{
+    font-size: 40px;
+  }
+  .Icon{
+    height: 75px;
+    width: 75px;
+  }
+
+
+}
+
+
+@media (max-width:700px) {
+  .mainHeading{
+    font-size: 20px;
+  }
+  .Icon{
+    height: 60px;
+    width: 60px;
+  }
+}
+/* Initially hide the element */
+.menu_div {
+  display: none !important;
+  margin-left: auto;
+}
+
+/* Show the element when the screen size is below 1280px */
+@media (max-width: 1264px) {
+  .menu_div {
+    display: block !important;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1264px) {
+}
+@media (max-width: 1265px) {
+
+  .input-group.me-2,
+  .input-group,
+  .col-5,
+  .d-flex {
+    display: none;
+  }
+
+  /* Set the visible element to occupy the entire row */
+  #root>div>nav>div>div.col-3.py-3.text-start {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Ensure it takes full width */
+  }
+}
+
+
+
+.hamburger-icon {
+  color: #FFFFFF;
+  /* Adjust the color as needed */
+  /* Add more styles if necessary */
+}
+
+@media (min-width: 1280px) {
+  .hamburger-button {
+    display: none;
+  }
+}
+
+
+.togle_btn {
+  background-color: white;
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .button_div {
+    display: none;
+  }
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0px);
+  position: fixed;
+}
+
+.background-image {
+  background-image: url('https://jooinn.com/images/nature-319.jpg');
+  /* Path to your background image */
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  /* Adjust as needed */
+  overflow: auto;
+  /* Allow content to scroll if needed */
+}
+
+
+
+.sidebar{
+  z-index: 999;
+  position: fixed;
+  top:0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  padding-top: 25px;
+  font-size: larger;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.296);
+  backdrop-filter: blur(20px);
+  transition: 2s ease-in-out;
+}
+
+.bold{
+  margin-top: 20px;
+}
+
+.row{
+  display: flex;
+}
+
+.select{
+  background-color: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(30px);
+}
+
+
+
+.carousel_fe{
+  position: relative;
+}
+
+.ddf{
+  position: relative;
+}
+
+
+.dfdf{
+  position: absolute;
+  top:0;
+  z-index: 33322;
+}
+
+.dfsf{
+  position: absolute;
+}
